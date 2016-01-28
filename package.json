@@ -1,0 +1,24 @@
+{
+  "name": "heilbronn_kfz_office_scraper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GityUpNow/heilbronn_kfz_office_scraper.git"
+  },
+  "author": "GityUpNow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GityUpNow/heilbronn_kfz_office_scraper/issues"
+  },
+  "homepage": "https://github.com/GityUpNow/heilbronn_kfz_office_scraper#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "request": "^2.69.0",
+    "sqlite3": "^3.1.1"
+  }
+}
