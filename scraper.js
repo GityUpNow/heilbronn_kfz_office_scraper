@@ -21,4 +21,4 @@ db.exec("CREATE TABLE IF NOT EXISTS KFZ(visitors INT, wait INT, nextcall INT, la
 var data;
 var statement = db.prepare("INSERT OR IGNORE INTO KFZ VALUES (?, ?, ?, ?)");
 
-var run = setInterval(requestFunction, 6000);
+var run = setInterval(requestFunction, 60000);
